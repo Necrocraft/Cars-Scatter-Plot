@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    background: linear-gradient(45deg, #8e44ad, white, #8e44ad);
+}
+
+circle {
+    fill: red;
+    stroke-width: 0.5px;
+    stroke: black;
+    opacity: 0.5;
+}
+
+circle:hover {
+    fill: #6F1E51;
+    opacity: 1;
+    cursor: pointer;
+}
+
+text {
+    font-size: 14px;
+    font-family: 'Hepta Slab', serif;
+    text-shadow: 2px 2px 4px;
+    fill: #2E2E2E;
+}
+
+.title-bar {
+    font-size: 40px;
+    font-family: 'Crimson Text', serif;
+}
+
+.xy-title {
+    font-size: 25px;
+    font-family: 'Crimson Text', serif;
+    fill: black;
+}
+
+.tick line {
+    stroke: #130f40;
+}
+
+.d3tooltip {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid silver;
+    border-radius: 5px;
+    opacity: 0.7;
+}
